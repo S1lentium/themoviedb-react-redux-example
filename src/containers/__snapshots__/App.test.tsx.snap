@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render 1`] = `
+<BrowserRouter>
+  <WithStyles(Layout)>
+    <Switch>
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/"
+      />
+      <Route
+        component={[Function]}
+        path="/movie/:id"
+      />
+    </Switch>
+  </WithStyles(Layout)>
+</BrowserRouter>
+`;
