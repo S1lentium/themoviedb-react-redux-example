@@ -2,14 +2,24 @@
   "name": "moviedb",
   "version": "1.0.0",
   "description": "The Movie DB Parser Example - Typescript + React + Redux + Saga",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/S1lentium/themoviedb-react-redux-example.git"
+  },
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "themoviedb",
+    "react",
+    "redux",
+    "redux-saga",
+    "typescript"
+  ],
+  "author": "Alisher Safarov",
   "license": "ISC",
   "devDependencies": {
     "@types/enzyme": "^3.1.15",
